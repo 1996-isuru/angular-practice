@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'third-project';
 
-  // name = "isuru";
+  name = "isuru";
 
   // todos:Todo[];
 
