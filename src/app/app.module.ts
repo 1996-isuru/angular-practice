@@ -10,6 +10,9 @@ import { FormComponent } from './components/form/form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Form2Component } from './components/form2/form2.component';
 
+import { MatButtonModule } from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,9 @@ import { Form2Component } from './components/form2/form2.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
